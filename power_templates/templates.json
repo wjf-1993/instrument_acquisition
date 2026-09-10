@@ -1,0 +1,240 @@
+{
+  "version": "1.0",
+  "updated": "2026-05-21T13:14:48.767143",
+  "db_fields": {
+    "ch1_urms": {
+      "name": "CH1电压有效值",
+      "unit": "V",
+      "default": "input"
+    },
+    "ch1_irms": {
+      "name": "CH1电流有效值",
+      "unit": "A",
+      "default": "input"
+    },
+    "ch1_p": {
+      "name": "CH1有功功率",
+      "unit": "W",
+      "default": "input"
+    },
+    "ch1_lamb": {
+      "name": "CH1功率因数",
+      "unit": "",
+      "default": "input"
+    },
+    "ch1_ithd": {
+      "name": "CH1总谐波失真",
+      "unit": "%",
+      "default": "input"
+    },
+    "ch1_ik3": {
+      "name": "CH1 3次谐波",
+      "unit": "%",
+      "default": "input"
+    },
+    "ch1_ik5": {
+      "name": "CH1 5次谐波",
+      "unit": "%",
+      "default": "input"
+    },
+    "ch1_ik7": {
+      "name": "CH1 7次谐波",
+      "unit": "%",
+      "default": "input"
+    },
+    "ch1_ik9": {
+      "name": "CH1 9次谐波",
+      "unit": "%",
+      "default": "input"
+    },
+    "ch2_urms": {
+      "name": "CH2电压有效值",
+      "unit": "V",
+      "default": "output"
+    },
+    "ch2_irms": {
+      "name": "CH2电流有效值",
+      "unit": "A",
+      "default": "output"
+    },
+    "ch2_p": {
+      "name": "CH2有功功率",
+      "unit": "W",
+      "default": "output"
+    }
+  },
+  "templates": [
+    {
+      "id": "室内电气性能检测报告",
+      "name": "室内电气性能检测报告",
+      "file": "室内电气性能检测报告.xlsx",
+      "size": 41223,
+      "modified": "2026-05-21T11:03:38.851920",
+      "sheets": {
+        "电气性能参数 ": {
+          "rows": 81,
+          "cols": 17,
+          "cells": [
+            {
+              "cell": "A1",
+              "value": "横店集团得邦照明股份有限公司检测中心",
+              "is_merged": true,
+              "data_cell": "A2"
+            },
+            {
+              "cell": "A2",
+              "value": "Hengdian Group Tospo Lighting CO., LTD.'Test Center",
+              "is_merged": true,
+              "data_cell": "A3"
+            },
+            {
+              "cell": "L3",
+              "value": "编号：DBTC/JY-JL/BG-14/20",
+              "is_merged": true,
+              "data_cell": "L4"
+            },
+            {
+              "cell": "A4",
+              "value": "电气性能检测报告",
+              "is_merged": true,
+              "data_cell": "A5"
+            },
+            {
+              "cell": "A5",
+              "value": "报告编号：N26LEDDX22101",
+              "is_merged": true,
+              "data_cell": "A6"
+            },
+            {
+              "cell": "A6",
+              "value": "型号规格",
+              "is_merged": true,
+              "data_cell": "A7"
+            },
+            {
+              "cell": "J6",
+              "value": "样品数量",
+              "is_merged": true,
+              "data_cell": "J7"
+            },
+            {
+              "cell": "A7",
+              "value": "检测条件",
+              "is_merged": true,
+              "data_cell": "A8"
+            },
+            {
+              "cell": "C7",
+              "value": "电压/频率",
+              "is_merged": true,
+              "data_cell": "C8"
+            },
+            {
+              "cell": "A8",
+              "value": "项目",
+              "is_merged": false,
+              "data_cell": "A8"
+            },
+            {
+              "cell": "B8",
+              "value": "输入电压(V)",
+              "is_merged": true,
+              "data_cell": "B10"
+            },
+            {
+              "cell": "C8",
+              "value": "输入电流(A)",
+              "is_merged": true,
+              "data_cell": "C10"
+            },
+            {
+              "cell": "D8",
+              "value": "输入功率(W)",
+              "is_merged": true,
+              "data_cell": "D10"
+            },
+            {
+              "cell": "E8",
+              "value": "PF",
+              "is_merged": true,
+              "data_cell": "E10"
+            },
+            {
+              "cell": "F8",
+              "value": "总谐波(%)",
+              "is_merged": true,
+              "data_cell": "F10"
+            },
+            {
+              "cell": "G8",
+              "value": "3次谐波(%)",
+              "is_merged": true,
+              "data_cell": "G10"
+            },
+            {
+              "cell": "H8",
+              "value": "5次谐波(%)",
+              "is_merged": true,
+              "data_cell": "H10"
+            },
+            {
+              "cell": "I8",
+              "value": "输出电压(V)",
+              "is_merged": true,
+              "data_cell": "I10"
+            },
+            {
+              "cell": "J8",
+              "value": "输出电流(A)",
+              "is_merged": true,
+              "data_cell": "J10"
+            },
+            {
+              "cell": "K8",
+              "value": "输出功率(W)",
+              "is_merged": true,
+              "data_cell": "K10"
+            },
+            {
+              "cell": "L8",
+              "value": "整灯效率(%)",
+              "is_merged": true,
+              "data_cell": "L10"
+            },
+            {
+              "cell": "M8",
+              "value": "输入功率变化率(%)",
+              "is_merged": true,
+              "data_cell": "M10"
+            },
+            {
+              "cell": "O8",
+              "value": "负载开路功率\n(W)",
+              "is_merged": true,
+              "data_cell": "O10"
+            },
+            {
+              "cell": "P8",
+              "value": "负载短路功率\n(W)",
+              "is_merged": true,
+              "data_cell": "P10"
+            },
+            {
+              "cell": "Q8",
+              "value": "待机1h功耗\n(W·h)",
+              "is_merged": true,
+              "data_cell": "Q10"
+            },
+            {
+              "cell": "A9",
+              "value": "编号",
+              "is_merged": false,
+              "data_cell": "A9"
+            }
+          ]
+        }
+      },
+      "field_mapping": {}
+    }
+  ]
+}
