@@ -1,1 +1,74 @@
-{}
+{
+    "devices": [
+        {
+            "id": "EP11-035",
+            "type": "oscilloscope",
+            "ip": "172.17.76.202",
+            "model": "DLM5000",
+            "enabled": true
+        },
+        {
+            "id": "EP14-064",
+            "type": "power_analyzer",
+            "ip": "172.17.76.203",
+            "model": "WT1804E",
+            "enabled": true
+        },
+        {
+            "id": "EP11-612",
+            "type": "power_analyzer",
+            "ip": "172.17.76.206",
+            "model": "WT1804E",
+            "enabled": true
+        },
+        {
+            "id": "EP11-032",
+            "type": "oscilloscope",
+            "ip": "172.17.76.200",
+            "model": "DLM5000",
+            "enabled": true
+        },
+        {
+            "id": "EP14-063",
+            "type": "power_analyzer",
+            "ip": "172.17.76.207",
+            "model": "WT1804E",
+            "enabled": true
+        },
+        {
+            "id": "EP14-031",
+            "type": "oscilloscope",
+            "ip": "172.17.76.211",
+            "model": "dlm5000",
+            "enabled": true
+        },
+        {
+            "id": "EP11-033",
+            "type": "oscilloscope",
+            "ip": "172.17.76.210",
+            "model": "DLM2024",
+            "enabled": true
+        },
+        {
+            "id": "EP11-653",
+            "type": "power_analyzer",
+            "ip": "172.17.76.204",
+            "model": "WT1804E",
+            "enabled": true
+        },
+        {
+            "id": "EP11-652",
+            "type": "power_analyzer",
+            "ip": "172.17.76.201",
+            "model": "WT1804E",
+            "enabled": true
+        },
+        {
+            "id": "EP11-333",
+            "type": "power_analyzer",
+            "ip": "172.17.76.223",
+            "model": "WT3000",
+            "enabled": true
+        }
+    ]
+}
